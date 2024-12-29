@@ -28,7 +28,7 @@ button {
   flex-wrap: nowrap;
   gap: 2px;
   position: relative;
-  width: 340px;
+  width: 380px;
   margin: 0 auto;
   background: url(../assets/images/6c0891687bc338fc7fc7cd42610f610db7828d7b.png)
     no-repeat center;
@@ -2843,7 +2843,7 @@ button {
   z-index: 219;
 }
 .menu-close {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: nowrap;
