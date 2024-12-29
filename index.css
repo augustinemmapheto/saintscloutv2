@@ -7,6 +7,7 @@
 
 .main-container {
   overflow: hidden;
+  width: 100%;
 }
 
 .main-container,
@@ -2783,10 +2784,10 @@ button {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 2px;
   position: relative;
   min-width: 0;
-  height: 50px;
+  height: 25px;
   padding: 0 10px 0 10px;
   z-index: 216;
 }
@@ -2801,7 +2802,7 @@ button {
   height: 50px;
   color: #ffffff;
   font-family: Goudy Bookletter 1911, var(--default-font-family);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 50px;
   text-align: center;
@@ -2834,7 +2835,7 @@ button {
   height: 65px;
   color: #ffffff;
   font-family: Goudy Bookletter 1911, var(--default-font-family);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 65px;
   text-align: center;
@@ -2852,6 +2853,9 @@ button {
   width: 340px;
   z-index: 220;
 }
+.menu-close.active {
+  display: flex;
+}
 .mobile-header-8b {
   display: flex;
   align-items: center;
@@ -2865,7 +2869,7 @@ button {
   z-index: 221;
 }
 .logo-8c {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
@@ -2946,6 +2950,7 @@ button {
   background-size: cover;
   z-index: 227;
   border-radius: 10px;
+  display: none;
 }
 .nav {
   display: flex;
@@ -2998,6 +3003,7 @@ button {
   position: relative;
   padding: 10px 10px 10px 10px;
   z-index: 231;
+  color: #ffffff;
 }
 .services-93 {
   flex-shrink: 0;
@@ -3015,7 +3021,7 @@ button {
   opacity: 0.5;
   z-index: 232;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:white;
 }
 .nav-about {
   display: flex;
@@ -3045,7 +3051,7 @@ button {
   opacity: 0.5;
   z-index: 234;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .nav-projects {
   display: flex;
@@ -3075,7 +3081,7 @@ button {
   opacity: 0.5;
   z-index: 236;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 .nav-contact {
   display: flex;
@@ -3105,5 +3111,5 @@ button {
   opacity: 0.5;
   z-index: 238;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white ;
 }
